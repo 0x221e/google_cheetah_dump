@@ -1,0 +1,75 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 576,
+    "auxiliary_data_block_size" : 1600,
+    "algorithm_type" : 2,
+    "hash_offset" : 0,
+    "hash_size" : 32,
+    "signature_offset" : 32,
+    "signature_size" : 512,
+    "public_key_offset" : 536,
+    "public_key_size" : 1032,
+    "public_key_metadata_offset" : 1568,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 536,
+    "rollback_index" : 1656979200,
+    "flags" : 0,
+    "release_string" : "avbtool 1.2.0"
+  },
+  "authBlob" : {
+    "offset" : 256,
+    "size" : 576,
+    "hash" : "d73e68cbb1b15ff57505d2aceb695e063bd1dd6cbdf61984067f482b8e5ec71d",
+    "signature" : "4e7a281997dfbae5b22c012ee08f6f3d2927968738247d6e9fd220a092d1d60026bc4c1fbe3a47cafe68c0ba375f542da7536608a5c03aec23a26774774aee7a1d6b0fc644456e0bbb37529c5d82bb6ae96000a4d46585647d2094e4b240effc824c3b81ee7785430f74977436c697e376f030e4e8f6dce53ab6133bb3a4a88466dacd589f22cb8c263c858defc4c04ce081a9d6d18f8506dc73f96bb5d407bd114c38e693686ea3994a8315f87959883fcf54b4459d7bbe6af0a2872fc719f1f6202e72eac9f44449b1a3661d16fcc170a1b0c393622751bfa36c67964f4de7b3f9722bd4dbef229f53767bb86a45ac700530ed0f9f2377f0b62c1547539e246f443053c4e6feefd3693396f8326e7cf9c3101e66f55527962e43403819bd47bd7c72b80ff2e9b747c20a6347365cd339e5a93bb38d22ab13a15b08469a2200ca31dd8a3b487d9065c2ec5b65af0eb134619bb67eda55b841056cc294b28edff8b7428fe9e9983f36002d384081d14de4c1eebe30caf826023b6ba56bb61a61396b19a6faf1d5d2cc9ff2e3eba59e499a112a46118bca6aa5a1c5b3beee0fc7fbc1ebb0746f84bee4ddfdf941b28dd274f2b93c802be98d100ab4c8d85bbffe3181835cb4192a5094b9d38ace382b36c153377b2108f18e99fbc3c8cdd29e904996191318f84156b9ee872427f227b10270e2e77aa6b6f1f7cf54bf8483ab43"
+  },
+  "auxBlob" : {
+    "pubkey" : {
+      "offset" : 536,
+      "size" : 1032,
+      "pubkey" : "AAAQAB696fOqmcvPXp24WvrWaiOAGtKfhdEcA1qb8i/z1aNA7pMnUaJrP+eWn22VfnViO9+OhvdM6c7+9f6BtThWfyMgtYhGC1iLwBdy9ywNOqY+/AxLKv5IpCCAVL4AyRPf+22ETAjyIqdDykGCRC6LWIGXoWT+fBuZaGGQ635A5lqp1ZhMvaCaCd+fJpZ2NvymO3RRISZyhMaVSMJbGi3p6aLT8NuAzk7VxMIooBV5U5FQ3ExhWSakrjR/zoyFVazzhBtywAv/dXSxivaN/2BpoEXUWlZShk2A1hNkvxT2vIslxXhKUyo38D3f328bDDl9j6hdrZPRwd/iZFH2sWsnzQNZ1Uq/CWIqJxr73sZCx0+EC+h2nYGrhUxPeY1M9ST/bhRroLb67JjGwidKo3LlX5BAysTiUj0jevYmEMRgzCQERxWmknNI/FpySAkAvxO2h9eaJtdcU34MfI62xck3p3rpp+jv88OTV2xUsmaPU2WCVuECkZALzKwGkVpc9uuTRBtviXOpqZcmRjKAcVg1bWFqEsgAONzwyLSUMNkZQbidz+MAObmE5I4NpqDXFU6nz7XWXfKbKQzaG5Mg9TGacBSQY4+dubeUJrO41FxtjHHzImvaLfXD+/EGbaaeqGAjB2Vo02v6dBCXd8bOyOL0rq9kzfTmfQQHjUaEvfGxE1mVJb8oxZ/EwsMVoCj0oz8cgGVVJg65JfvHjHnUKGwWHg9jQIedAZawHvRcYlSulh4BvfiDsHY9zIT5NkZ5gNXP8BFVsXMhX/xWYXa39Tlls2eq6n0s3B/YU+myyYiOL6QFsoNB1QX1fNkZKAgEQpcwRapXHHlvRwdKP8FscyLKmwdBfKg8RZeIZ/9TXL49mq3ocbfrX8se/DdPT61V2nGbApmPErcCrgtbUrxwV1a4LI3C5aMP+52brzOrUYLMeotd8xFgZj1DVgP0nKmuYeq2kzgeTOBWud53KQ+qBcegk942LGGNr1BSuBynkBywTm7iZHidjONcJUgiaB+NnCYewbLDwF21bRphkXthvak/Di2KcVugDUOGblb6X4XNR++ZTnZiBw6IbY85eL2YddPJg4ZH1zNIWa9rRuv9q6VWX1XD5+J92bd34EPuMLrmGvXgYpbfzfuqqLGpPBvbqoRfdgHe7CSe0xa3lDePOTll8sDsKKnr8jOW9CvsbS1s6+x8Nie2UFPwsb/LvfmhhsRTmlZaESRltCOjdZ+XbnSaCw7of/4oQfjk3gLiFNlH6uHDOTdi/QuFsGselWCi8I3NsMf57+1FXiQZsXbR59D+uooDC+J75IDlp2/fkBOVsyTEXe3C4gznsbvoN9GjzkAEo7uti2hjTwhaXHTQ2o3T6XpEBQzj"
+    },
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 2,
+      "key" : "com.android.build.boot.os_version",
+      "value" : "12"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 144,
+      "sequence" : 3,
+      "key" : "com.android.build.boot.fingerprint",
+      "value" : "Android/gki_arm64/gki_arm64:UpsideDownCake/TKB1.220808.008.A1/8939933:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 4,
+      "key" : "com.android.build.boot.security_patch",
+      "value" : "2022-07-05"
+    } ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 200,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "generic_kernel",
+      "hash_algorithm" : "sha256",
+      "image_size" : 24880119,
+      "salt" : "PqscFvT8ZHbj8QDmpeh+TxRVrgr+oNW+Yt18q17ZECs=",
+      "digest" : "egXb/pL5Y7F1lwqqq0ayKOZ508WzTWFi2Ghi9/AVYMA=",
+      "partition_name_len" : 14,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : null
+}
